@@ -1,0 +1,33 @@
+.design-circle {
+  border: 1px solid grey;
+  border-radius: 60px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.design-img {
+  height: 58px;
+}
+.example-picture {
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.points {
+  display: flex;
+  justify-content: center;
+  margin:20px;
+}
+.point {
+  margin: 5px;
+}

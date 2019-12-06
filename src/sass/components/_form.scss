@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+}
+.input {
+  width:350px;
+  height: 30px;
+  border-radius: 10px;
+}
+.main-message {
+  display: flex;
+  justify-content: center;
+}
+.main-email-subject {
+  display: flex;
+}
+.second-email-subject {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+.second-message {
+  display: flex;
+  justify-content: center;
+}
+.message-field {
+  width: 620px;
+  height: 130px;
+  border-radius: 10px;
+}

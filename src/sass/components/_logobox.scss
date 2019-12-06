@@ -1,0 +1,33 @@
+.logo {
+  background-image: url('../image/main-logo.png');
+  background-repeat: no-repeat;
+  width: 165px;
+  margin-top: 30px;
+}
+.menu {
+  margin-top: 30px;
+  display: flex;
+}
+.menu-img {
+  background-image: url('../image/menu.png');
+  width:20px;
+  height: 20px;
+ margin-left: 10px;
+}
+.menulogo {
+  display:flex;
+  justify-content: space-around;
+}
+.main-motto {
+  display: flex;
+  justify-content:center;
+}
+.main-button {
+  display:  flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.main-arrow {
+  display: flex;
+  justify-content: center;
+}

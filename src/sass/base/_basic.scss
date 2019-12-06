@@ -1,0 +1,29 @@
+.conteiner {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+P {
+  margin: 5px;
+}
+.colour {
+  color: $maincolor;
+  margin-left: 10px;
+}
+menu {
+  padding: 0;
+  margin: 0 auto;
+}
+section {
+  background-image: url('../image/woman.png');
+  margin-top: 40px;
+}
+.main-clients {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+}

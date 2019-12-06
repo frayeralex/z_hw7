@@ -1,0 +1,43 @@
+.button {
+  width: 150px;
+  height:30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 10px;
+  margin-top: 20px;
+
+  &:hover {
+    color: $maincolor;
+  }
+}
+.second-arrow {
+  width: 40px;
+  height: 40px;
+  background-image: url('../image/arrow.png');
+  background-repeat: no-repeat;
+  margin-bottom:20px;
+}
+.subscribe {
+  background-color:$maincolor;
+  width: 150px;
+  height:36px;
+  display: flex;
+  margin-left:30px;
+  justify-content: center;
+  color: white;
+  border: 1px solid $maincolor;
+  border-radius:10px;
+}
+.button-showmore {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80%;
+}
+.left-arrows , .right-arrows {
+  align-items: center;
+}

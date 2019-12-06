@@ -1,0 +1,67 @@
+.menu-text {
+  color: $secondcolor;
+}
+.motto {
+  display: flex;
+  justify-content: center;
+  font-size: 300%;
+  color: $secondcolor;
+}
+.lorem {
+  display: flex;
+  justify-content: center;
+  color: $secondcolor;
+  font-size:120%;
+}
+.b-text {
+  font-size: 80%;
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
+  color:$secondcolor;
+}
+.design-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 140px;
+  font-size: 80%;
+}
+.p-text {
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.example-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.second-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $secondcolor;
+  font-size: 120%;
+}
+.name {
+  display: flex;
+  justify-content: center;
+}
+.main-headline {
+  display: flex;
+  justify-content: center;
+}
+.second-headline {
+  color: $secondcolor;
+  display: flex;
+  justify-content: center;
+}
+.description-say-hello {
+  color: $secondcolor;
+  display: flex;
+  justify-content: center;
+  font-size: 100%;
+}

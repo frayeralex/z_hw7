@@ -1,0 +1,33 @@
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+.second-nav {
+  display: flex;
+}
+.design {
+  height: 100px;
+  width: 100px;
+  margin: 60px;
+}
+.main-email {
+  background-image: url(../image/tablet.png);
+  min-height: 20vh;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showmore {
+  display: flex;
+  justify-content:center;
+  margin-top: 30px;
+}
+.designers {
+  display: flex;
+  justify-content: center;
+}
+.main-sayhello {
+  min-height: 40vh;
+  background-image: url(../image/city.png);
+}
