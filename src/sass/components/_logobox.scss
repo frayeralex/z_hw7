@@ -22,10 +22,14 @@
   display: flex;
   justify-content:center;
 }
-.main-button {
+.btn-container {
   display:  flex;
   justify-content: center;
   margin-bottom: 50px;
+
+  .button {
+    margin: 0 15px;
+  }
 }
 .main-arrow {
   display: flex;

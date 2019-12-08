@@ -22,3 +22,50 @@ section {
   display: flex;
   justify-content: center;
 }
+
+.btn-primary {
+  background-color: $maincolor;
+}
+
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .box {
+    width: 360px;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      display: block;
+      width: 360px;
+      height: 360px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &:hover {
+      .mask {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: red;
+      opacity: 0;
+      transition: .3s;
+      transform: translateY(100%);
+    }
+  }
+}
